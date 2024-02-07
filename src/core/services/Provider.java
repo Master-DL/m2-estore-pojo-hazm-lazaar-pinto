@@ -8,6 +8,8 @@ import estorePojo.exceptions.UnknownItemException;
 public class Provider implements IProvider {
 
 	private Map<String, Double> itemPrices = new HashMap<>();
+	private IOrderItems iOrderItems;
+	private ILookItem iLookItem;
 
 	/**
 	 * Constructs a new ProviderImpl

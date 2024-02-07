@@ -14,10 +14,13 @@ import estorePojo.exceptions.InvalidCartException;
 import estorePojo.exceptions.UnknownAccountException;
 import estorePojo.exceptions.UnknownItemException;
 
-public class Store implements IStore {
+public class Store {
 
 	    private Provider provider;
 	    private TransferMoney bank;
+		private INormalLane iNormalLane;
+		private IFastLane iFastLane;
+		private ILookItem iLookItem;
 
 	    /**
 	     * Constructs a new StoreImpl

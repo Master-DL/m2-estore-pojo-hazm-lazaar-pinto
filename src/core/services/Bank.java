@@ -8,6 +8,7 @@ public class Bank {
 
 	private Account estore;
 	private Account anne, bob;
+	private ISendMoney iSendMoney;
 
 	public Bank() {
 		estore = new Account();

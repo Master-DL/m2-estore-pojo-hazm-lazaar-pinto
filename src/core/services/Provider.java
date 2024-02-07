@@ -5,7 +5,7 @@ import java.util.Map;
 
 import estorePojo.exceptions.UnknownItemException;
 
-public class Provider {
+public class Provider implements IProvider {
 
 	private Map<String, Double> itemPrices = new HashMap<>();
 

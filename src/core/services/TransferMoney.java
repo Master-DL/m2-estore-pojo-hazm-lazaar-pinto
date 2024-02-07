@@ -4,12 +4,12 @@ import core.data.Account;
 import estorePojo.exceptions.InsufficientBalanceException;
 import estorePojo.exceptions.UnknownAccountException;
 
-public class Bank {
+public class TransferMoney implements ITransferMoney {
 
 	private Account estore;
 	private Account anne, bob;
 
-	public Bank() {
+	public TransferMoney() {
 		estore = new Account();
 		anne = new Account();
 		bob = new Account();

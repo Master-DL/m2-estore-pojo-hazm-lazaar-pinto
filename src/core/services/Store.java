@@ -17,12 +17,12 @@ import estorePojo.exceptions.UnknownItemException;
 public class Store implements IStore {
 
 	    private Provider provider;
-	    private Bank bank;
+	    private TransferMoney bank;
 
 	    /**
 	     * Constructs a new StoreImpl
 	     */
-	    public Store(Provider prov, Bank bk) {
+	    public Store(Provider prov, TransferMoney bk) {
 	        provider = prov;
 	        bank = bk;
 	    }

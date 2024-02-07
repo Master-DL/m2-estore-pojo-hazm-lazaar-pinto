@@ -3,7 +3,7 @@ package main;
 import core.services.Bank;
 import core.data.Client;
 import core.services.Provider;
-import core.data.Store;
+import core.services.Store;
 
 public class Main {
 
